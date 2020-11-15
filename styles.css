@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.spacing {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* navbar regular css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    align-items: center;
+}
+/* navbar ul */
+.nav_links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 50%;
+}
+.nav_links a:hover{
+  background-color: #222222;
+  color: white;
+  padding: 0.75rem;
+}
+.alink{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #222222;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+#resume{
+  background-color: #a10644;
+  color: #FFFFFF;
+  padding: 0.75rem;
+}
+.hamburger {
+  display: none;
+  background-color: #a10644;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#clippath{ 
+  width: 100%;
+  height: 30rem;
+  background-color:#a10644;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%); */
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#headshot {
+  height: 16rem;
+  width: 16rem;
+  clip-path: circle(47.8% at 50% 50%);
+  margin: 3rem;
+}
+#mainName {
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+#bio-text {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 40%;
+}
+#name-bio-text {
+  font-size: 2.3rem;
+  color: #edb528;
+  font-weight: 800;
+  /* width: 50%; */
+  /* margin: auto; */
+}
+#info-bio-text {
+  font-size: 1.5rem;
+  /* width: 50%; */
+  /* margin: auto; */
+  /* align-items: center; */
+  
+}
+.subtitles {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #a10644;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}#aboutme_info{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.langs{
+  text-align: center;
+  width: 22%;
+}
+.langPics{
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
+}
+.langTitles{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2bc9ed;
+}
+.langInfo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+.threeBoxes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 90%;
+  margin: auto;
+}
+.projDivider{
+  border: 0.01rem solid gray;
+  width: 60%;
+  margin: auto;
+}
+.projBox{
+  width: 60%;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+.projTitle{
+  font-family: 'Roboto', sans-serif;
+  /* color: #2bc9ed; */
+  font-size: 2rem;
+  font-weight: 800;
+}
+.projInfo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.projDetails{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: gray;
+}
+.projPics{
+  width: 27rem;
+  height: 18rem;
+  padding-left: 5rem;
+}
+.companies{
+  width: 35%;
+  text-align: center;
+  background-color: #a10644;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.comp_title{
+  color: #edb528;
+  font-size: 1.5rem;
+}
+.contactBoxes{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.subConBoxes{
+  display: flex;
+  justify-content: space-around;
+  /* width: 80%; */
+  margin: auto;
+}
+#contactMeDiv{
+  background-color: #edb528;
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.contactFields{
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  width: 12rem;
+  color: gray;
+}
+.contactFieldsBig{
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  width: 28rem;
+  height: 6rem;
+  color: gray;
+}
+#sendBox{
+  align-items: center;
+  text-align: center;
+  border: 0.2rem solid black;
+  width: 8rem;
+  margin: 2rem 1rem;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+  /* color: white; */
+}
+#chatInCon{
+  font-size: 5rem;
+  width: 75%;
+}
+#phone{
+  margin: 3rem 0rem;
+}
+#contactLinks{
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+.socialMedia{
+  width: 3rem;
+  height: 3rem;
+}
+.emailMe{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem;
+}
+#email{
+  color: #a10644;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1100px) {
+  #mainName{
+    font-size: 3rem;
+  }
+  .projBox{
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+
+  html{
+    font-size: 80%;
+  }
+
+  .hamburger{
+    display: block;
+  }
+  .navbar {
+    height: 4rem;
+  }
+  .navbar ul {
+    margin-top: 3rem;
+    position: absolute;
+    width: 100%;
+    height: 10rem; 
+    left: 0;
+    top: 6.8rem;
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s;
+  }
+  .navbar ul li {
+    width: 100%;
+    text-align: right;
+  }
+  .navbar ul li a {
+    padding: 1.3rem;
+  }
+  .navbar ul.open {
+    max-height: 100vh;
+    overflow: visible;
+  }
+  .mainNavOpen{
+    margin-top: 20rem;
+    /* transform: .3s; */
+}
+
+.projBox{
+  width: 90%;
+}
+.threeBoxes{
+  width: 100%;
+}
+  /* navbar css for mobile end */
+}
+
+@media screen and (max-width: 600px) {
+  #clippath{
+    flex-direction: column;
+  }
+  #mainName{
+    font-size: 3rem;
+  }
+  .projBox{
+    flex-direction: column;
+  }
+  .projDetails{
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  .threeBoxes{
+    flex-direction: column;
+  }
+  .companies{
+    width: 100%;
+    margin: 1rem;
+  }
+  .langs{
+    width: 60%;
+  }
+  .langPics{
+    width: 6rem;
+    height: 6rem;
+    margin: 2rem;
+  }
+  .socialMedia{
+    margin: 0.1rem 0.5rem;
+  }
+  #bio-text{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+  /* .spacing {
+    margin: 0rem 2rem; */
+  /* } */
+  .subtitles{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contactBoxes{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #chatInCon{
+    width: 100%;
+  }
+}

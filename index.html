@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Niki Chittela</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div id = "mainLogo">
+      <li id = "mainName"><a class = "alink" href="#home">NIKI CHITTELA</a></li>
+      <p>Computer Science/Economics @ UofM</p>
+  </div>
+  <ul class = "nav_links">
+      <li class = "navRight"><a class = "alink" href="#about">ABOUT</a></li>
+      <li class = "navRight"><a class = "alink" href="#projects">PROJECTS</a></li>
+      <li class = "navRight"><a class = "alink" href="#experience">EXPERIENCE</a></li>
+      <li class = "navRight"><a class = "alink" href="#contact">CONTACT</a></li>
+      <li class = "navRight"><a class = "alink" id = "resume" target="_blank" href="NikiChittelaResume.pdf">RESUME</a></li>  
+  </ul>
+    <!-- for mobile version only -->
+    <button class="hamburger">Menu</button>
+  </nav>
+  <h1 class = "mainNavOpen"></h1>
+  <div id="clippath" class = "spacing">
+    <img src="profilepic.jpg" id = "headshot">
+    <div id = "bio-text">
+        <p id = "name-bio-text"> Hi, I'm Niki!</p>
+        <p id = "info-bio-text"> I'm a CS/Econ student powered by curiosity to 
+            learn about computer science, data analytics, and web design.</p>
+          <br>
+          <br>
+    </div>
+</div>
+<div>
+    <h2 id = "about" class = "subtitles">ABOUT ME</h2>
+    <!-- <br>
+    <br> -->
+    <p id = "aboutme_info">I’m currently a sophomore at the University of michigan where I’m majoring in 
+        computer science and minoring in economics. I’ve always been interested in computer 
+        science but I’m also interested in exploring data science/data analytics. This past summer 
+        I interned at Ford Motor Company as an Information Technology Intern, and although it 
+        was cut to 2 months due to COVID, I learned about one aspect of IT as I worked on 
+        monitoring their FDSP application.
+    </p>
+    <!-- <br>
+    <br> -->
+    <div class = "threeBoxes" class = "spacing">
+        <div class = "langs">
+            <img src="c++Pic.png"  class = "langPics">
+            <p class = "langTitles">C++</p>
+            <p class = "langInfo">Used to program various projects through coursework.</p>
+        </div>
+        <div class = "langs">
+            <img src="htmlPic.png"  class = "langPics">
+            <p class = "langTitles">HTML</p>
+            <p class = "langInfo">Used as framework for websites in clubs and web design competitions.</p>
+        </div>
+        <div class = "langs">
+            <img src="cssPic.png"  class = "langPics">
+            <p class = "langTitles">CSS</p>
+            <p class = "langInfo">Used to design for websites in clubs and web design competitions.</p>
+        </div>
+    </div>
+</div>
+<div class = "spacing">
+    <h2 class = "subtitles" id = "projects">PROJECTS</h2>
+    <div class = "projBox">
+        <div>
+            <p class = "projTitle">EUCHRE</p>
+            <p class = "projInfo">Programmed a simulator for the card game, euchre, from scratch using both human 
+                player and computer player techniques.</p>
+            <p class = "projDetails">Implemented using C++ using abstract data types, polymorphism, and more.</p>
+        </div>
+        <img src = "euchre.png" class = "projPics">
+    </div>
+    <hr class = "projDivider">
+    <div class = "projBox">
+        <div>
+            <p class = "projTitle">OFFICE HOURS QUEUE</p>
+            <p class = "projInfo">Programmed a small web server for an office hours queue that took in names and location.</p>
+            <p class = "projDetails">Implemented using C++ using linked lists and stdin/stdout.</p>
+        </div>
+        <img src = "officehr.png" class = "projPics">
+    </div>
+    <hr class = "projDivider">
+    <div class = "projBox">
+        <div>
+            <p class = "projTitle">LETTERMAN</p>
+            <p class = "projInfo">Program that uses path-finding to find the shortest way to morph words
+                 from start to end word using limited techniques such as swap, insert, and delete letters.</p>
+            <p class = "projDetails">Implemented using C++ using stack and queue based routing schemes.</p>
+        </div>
+        <img src = "letterman.png" class = "projPics">
+    </div>
+    <hr class = "projDivider">
+    <div class = "projBox">
+        <div>
+            <p class = "projTitle">MINER</p>
+            <p class = "projInfo">Programm that travels from one point of a 2-D grid to the exit by 
+                blowing tnt and rubble tiles in the easiest order till an exit/end of grid is reached.</p>
+            <p class = "projDetails">Implemented using C++ using priority queues and comparators.</p>
+        </div>
+        <img src = "miner.png" class = "projPics">
+    </div>
+    <!-- <br>
+    <br> -->
+</div>
+<div>
+    <h2 class = "subtitles" id = "experience">ORGANIZATIONS/EXPERIENCE</h2>
+    <br>
+    <br>
+    <div class = "threeBoxes">
+        <div class = "companies">
+            <p class = "comp_title">Ford Motor Company</p>
+            <br>
+            <p><i>Information Technology Intern, Jun-Aug 2020</i></p>
+            <br>
+            <p>Provided metrics and monitored application health of the Ford Diagnostic Service Platform</p>
+        </div>
+        <div class = "companies"> 
+            <p class = "comp_title">Girls in Electrical Engineering and Computer Science (GEECS)</p>
+            <br>
+            <p><i>Outreach Committee, 2019 - Present</i></p>
+            <br>
+            <p>Organized events to increase highschool girls interest in Computer Science
+                 and Engineering through events and QandA Panels; personally organized and lead HTML workshop</p>
+        </div>
+        <div class = "companies"> 
+            <p class = "comp_title">TedXUofM</p>
+            <br>
+            <p><i>Design Team, Marketing Team, 2019, 2020</i></p>
+            <br>
+            <p>Helped with TedxUofM logo and branding; took part in creating content for the organization's Instagram page</p>
+        </div>
+    </div>
+</div>
+<div id = "contactMeDiv">
+    <p class = "subtitles">CONTACT ME</p>
+    <div class = "contactBoxes">
+        <div>
+            <p id = "chatInCon">I'd love to chat!</p>
+            <p id = "phone">000 000 0000</p>
+        </div>
+        <div>
+            <div class = "subConBoxes">
+                <p class = "contactFields">Full name</p>
+                <p class = "contactFields">Email address</p>
+            </div>
+            <p class = "contactFieldsBig"> Write message here</p>
+            <p id = "sendBox">Send</p>
+        </div>
+    </div>
+</div>
+<div id = "contactLinks">
+    <img src = "linkedin.png" class = "socialMedia">
+    <img src = "insta.png" class = "socialMedia">
+    <img src = "facebook.png" class = "socialMedia">
+    <img src = "twitter.png" class = "socialMedia">
+</div>
+<p class = "emailMe">Email me at <span id = "email">clniki@umich.edu</span></p>
+</body>
+
+
+</body>
+<script src="java.js"></script>
+</html>
